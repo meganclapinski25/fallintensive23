@@ -1,3 +1,71 @@
-body{
-    background-color: lightcoral;
+ #navbar ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+    
+    
+}
+#brand{
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkblue;
+}
+li{
+    float:right;
+    
+}
+#navbar input[type=text]{
+    float:right;
+    padding: 5px;
+}
+
+
+  li a {
+    display: block;
+    color: darkgreen;
+    text-align: center;
+    padding:  10px;
+    text-decoration: none;
+  }
+#flex-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    border: 2px;
+    border-style: solid;
+    
+
+}
+#car1{
+    height: 500;
+    width: 500;
+    padding:50px
+}
+#car2{
+    height: 500;
+    width: 500;
+    padding:50px
+}
+#car3{
+    height: 500;
+    width: 500;
+    padding:50px
+}
+#financial-blog{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    border: 2px;
+    border-style: solid;
+}
+#financial{
+    
+    background-color: grey;
+}
+#blog{
+    
+    background-color: lightblue;
 }
