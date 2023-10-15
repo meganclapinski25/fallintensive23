@@ -2,7 +2,7 @@
     text-decoration: none;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     overflow: hidden;
     background-color: lightgrey;
     
@@ -19,7 +19,7 @@ li{
 }
 #navbar input[type=text]{
     float:right;
-    padding: 5px;
+    
 }
 
 
@@ -60,12 +60,56 @@ li{
     justify-content: center;
     border: 2px;
     border-style: solid;
+    
+    
+    
 }
 #financial{
-    
     background-color: grey;
+    text-align: center;
+    width:100%
 }
 #blog{
-    
+    text-align: center;
     background-color: lightblue;
+    width: 100%;
+    padding: 5px;
 }
+#about-us {
+    display: inline-block;
+    width: 50%;
+}
+#about-us li{
+    color: blue ;
+    padding: 5px;
+    list-style-type: none;
+    float: left;
+    clear: left;
+
+    
+}
+#contact-us{
+    display: inline-block;
+}
+#contact-us h3{
+    text-align: right;
+}
+
+#contact-us li{
+    color: green ;
+    padding: 5px;
+    list-style-type: none;
+    float: center;
+    clear: right;
+}
+#blog-button{
+    border:none;
+    padding: 5px;
+}
+#financial-button{
+    border:none;
+    padding: 5px;
+    
+}
+
+
