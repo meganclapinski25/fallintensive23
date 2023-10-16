@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Quiz Page</title>
+    <style>
+        .quiz-container{
+            margin:0;
+            border: 10px;
+            padding: 10px;
+        }
+        ul{
+            list-style:none
+        }
+        li{
+            list-style: none;
+            padding: 10px;
+        }
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <section id = 'navbar'>
+        <ul>
+            <li id = 'brand'><a href="index.html">Green's Auto Pal</a></li>
+            <input type = "text" placeholder="Search..">
+            <li><a href = "blog-page">Blog</a></li>
+            <li><a href = "quiz.html">Take Our Quiz</a></li>
+            <li><a href = "hybrid.html">Hybrid</a></li>
+            <li><a href = "electric.html">Electric</a></li>
+            
+                
+
+        </ul>
+    </section>
+    <section id = "quiz">
+    <div id = "quiz-container">
+    <h1>Find Your Next Car!</h1>
+    <div id = "questions-container">
+        <p id = "question"></p>
+        <ul id = "choices"> </ul>
+    </div>
+    <button id = "next"> Next!</button>
+    </div>
+    <div id = "result-container">
+        <h2>Your Car Match!</h2>
+        <p id = "result"></p>
+    </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
