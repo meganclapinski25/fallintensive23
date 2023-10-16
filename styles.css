@@ -1,12 +1,31 @@
+ body{
+    background-color: lightgrey;
+    
+ }
+ 
+ li a:hover {
+    color: #00ff00; 
+}
+
+ 
+ 
  #navbar ul{
     text-decoration: none;
     list-style: none;
     margin: 0;
     padding: 5px;
     overflow: hidden;
-    background-color: lightgrey;
+    background-color: #8BC34A;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     
     
+    
+}
+#car1, #car2, #car3{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: 500;
+    width: 500;
+    padding:50px
 }
 #brand{
     float: left;
@@ -34,51 +53,35 @@ li{
     display:flex;
     flex-direction:row;
     justify-content: center;
-    border: 2px;
-    border-style: solid;
+    
     
 
 }
-#car1{
-    height: 500;
-    width: 500;
-    padding:50px
-}
-#car2{
-    height: 500;
-    width: 500;
-    padding:50px
-}
-#car3{
-    height: 500;
-    width: 500;
-    padding:50px
-}
+
 #financial-blog{
     display:flex;
     flex-direction:row;
     justify-content: center;
-    border: 2px;
-    border-style: solid;
+    
+    
     
     
     
 }
 #financial{
-    background-color: grey;
+    
     text-align: center;
-    width:100%
+    width:100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 #blog{
     text-align: center;
-    background-color: lightblue;
+    
     width: 100%;
     padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-#about-us {
-    display: inline-block;
-    width: 50%;
-}
+
 #about-us li{
     color: blue ;
     padding: 5px;
@@ -88,28 +91,47 @@ li{
 
     
 }
-#contact-us{
-    display: inline-block;
+#about-us, #contact-us {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+#about-us {
+    float: left;
+}
+#contact-us {
+    float: right;
 }
 #contact-us h3{
     text-align: right;
+}
+#contact-us ul{
+    text-align: right;
+    
 }
 
 #contact-us li{
     color: green ;
     padding: 5px;
     list-style-type: none;
-    float: center;
+    float: right ;
+    width: 100%;
     clear: right;
+    
 }
 #blog-button{
     border:none;
     padding: 5px;
+    background-color: #015529; 
+     color: #fff;
+    
 }
 #financial-button{
-    border:none;
+    border:none;        
     padding: 5px;
-    
+    background-color: #015529; 
+    color: #fff;
 }
 
 
